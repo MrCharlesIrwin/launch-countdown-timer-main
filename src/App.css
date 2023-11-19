@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --GrayishBlue: hsl(237, 18%, 59%);
+  --SoftRed: hsl(345, 95%, 68%);
+  --White: hsl(0, 0%, 100%);
+  --DarkDesaturatedBlue: hsl(236, 21%, 26%);
+  --VeryDarkBlue-100: hsl(235, 16%, 14%);
+  --VeryDarkBlue-200: hsl(234, 17%, 12%);
+}
+
+h1 {
+  padding-top: 23vh;
+  margin: 0 auto 3rem;
+  color: var(--White);
+  word-spacing: 0.5rem;
+  letter-spacing: 0.2rem;
+  width: 15ch;
+  text-align: center;
+}
+.App {
+  background-image: url("../public/images/bg-stars.svg"), url("../public/images/pattern-hills.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto, 100% 25%;
+  background-position: 20% 10%, bottom;
+  background-color: var(--VeryDarkBlue-200);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.flipClock {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.9rem;
+  row-gap: 0.6rem;
+  grid-template-columns: repeat(4, 4.4rem);
+  grid-template-rows: repeat(2, min-height);
+}
+.flipClockCards {
+  background-color: var(--DarkDesaturatedBlue);
+  border-radius: 0.4rem;
+  padding: 0.9rem;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--SoftRed);
+
+  display: grid;
+}
+.topHalfFlipCard {
+  background-color: blue;
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.topHalfAnimatedFlipCardCover {
+  background-color: green;
+  grid-row: 1;
+  grid-column: 1;
+  animation: flip-top 6000ms ease-in forwards;
+  transform-origin: bottom;
+  overflow: hidden;
+}
+@keyframes flip-top {
+  100% {
+    transform: rotateX(90deg);
+  }
+}
+.bottomHalfFlipCard {
+  background-color: yellowgreen;
+  grid-row: 2;
+  grid-column: 1;
+}
+.bottomHalfAnimatedFlipCardCover {
+  background-color: violet;
+  grid-row: 2;
+  grid-column: 1;
+  animation: flip-bottom 6000ms ease-out 6000ms  ;
+  transform-origin: top;
+  transform: rotateX(90deg);
+}
+
+@keyframes flip-bottom {
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+
+/* ////////////// */
+
+.countDownCaption {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--GrayishBlue);
+  text-align: center;
+  text-transform: uppercase;
+}
+.socials {
+  margin: auto auto 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
