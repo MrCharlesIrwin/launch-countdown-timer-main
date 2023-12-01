@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
 
-  "homepage": "https://mrcharlesirwin.github.io",
+  "homepage": "https://github.com/MrCharlesIrwin/launch-countdown-timer-main.git",
 
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
