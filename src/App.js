@@ -2,14 +2,14 @@ import React, { useState } from "react";
 import "./App.css";
 
 function App() {
-  const [days, setDays] = useState("1");
-  const [prevdays, setPrevDays] = useState("2");
-  const [hours, setHours] = useState("2");
-  const [prevhours, setPrevHours] = useState("3");
-  const [minutes, setMinutes] = useState("11");
-  const [prevMinutes, setPrevMinutes] = useState("12");
-  const [seconds, setSeconds] = useState("1");
-  const [prevSecond, setPrevSecond] = useState("2");
+  const [days, setDays] = useState("8");
+  const [prevdays, setPrevDays] = useState("9");
+  const [hours, setHours] = useState("23");
+  const [prevhours, setPrevHours] = useState("24");
+  const [minutes, setMinutes] = useState("55");
+  const [prevMinutes, setPrevMinutes] = useState("56");
+  const [seconds, setSeconds] = useState("41");
+  const [prevSecond, setPrevSecond] = useState("42");
 
   const [minutesAnimation, setMinutesAnimation] = useState(false);
   const [hoursAnimation, setHoursAnimation] = useState(false);
