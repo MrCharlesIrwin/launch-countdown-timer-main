@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.219beba6.css",
-    "main.js": "/static/js/main.9eb56eaf.js",
-    "static/media/bg-stars.svg": "/static/media/bg-stars.166881a1c03d6b1239f5.svg",
-    "static/media/pattern-hills.svg": "/static/media/pattern-hills.815d688fd937623063b5.svg",
-    "index.html": "/index.html",
-    "main.219beba6.css.map": "/static/css/main.219beba6.css.map",
-    "main.9eb56eaf.js.map": "/static/js/main.9eb56eaf.js.map"
+    "main.css": "/MrCharlesIrwin/launch-countdown-timer-main.git/static/css/main.a4c21fe0.css",
+    "main.js": "/MrCharlesIrwin/launch-countdown-timer-main.git/static/js/main.9eb56eaf.js",
+    "static/media/bg-stars.svg": "/MrCharlesIrwin/launch-countdown-timer-main.git/static/media/bg-stars.166881a1c03d6b1239f5.svg",
+    "index.html": "/MrCharlesIrwin/launch-countdown-timer-main.git/index.html",
+    "static/media/pattern-hills.svg": "/MrCharlesIrwin/launch-countdown-timer-main.git/static/media/pattern-hills.815d688fd937623063b5.svg",
+    "main.a4c21fe0.css.map": "/MrCharlesIrwin/launch-countdown-timer-main.git/static/css/main.a4c21fe0.css.map",
+    "main.9eb56eaf.js.map": "/MrCharlesIrwin/launch-countdown-timer-main.git/static/js/main.9eb56eaf.js.map"
   },
   "entrypoints": [
-    "static/css/main.219beba6.css",
+    "static/css/main.a4c21fe0.css",
     "static/js/main.9eb56eaf.js"
   ]
 }
